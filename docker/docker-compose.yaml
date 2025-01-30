@@ -1,0 +1,20 @@
+version: "3.7"
+
+services:
+
+ container_diff_imp_latent:
+  image: diff_imp_latent
+  volumes:
+   - ../:/app/
+  stdin_open: true
+  tty: true
+  deploy:
+      resources:
+        limits:
+          memory: 16g
+        reservations:
+          memory: 8g
+          devices:
+            - driver: nvidia
+              device_ids: ['0']  # Especifica aquí los IDs de las GPUs que deseas asignar
+              capabilities: [gpu]

@@ -1,0 +1,19 @@
+defaults:
+  - base
+
+dataset:
+  name: metr-la
+  scenario: block
+  scale_window_factor: 1
+  batch_size: 16
+  
+# Model hyperparameters:
+model_config:
+  undersampling_factor_time: 1
+  undersampling_factor_node: 9
+
+test_sigmas: [80, 0.621]
+
+missing_pattern:
+  strategy1: point
+  strategy2: block

@@ -1,0 +1,19 @@
+defaults:
+  - base
+
+dataset:
+  name: pems-bay
+  scenario: point
+  scale_window_factor: 1
+  batch_size: 16
+
+# Model hyperparameters:
+model_config:
+  undersampling_factor_time: 2
+  undersampling_factor_node: 5
+
+epochs: 150
+
+missing_pattern:
+  strategy1: point
+  strategy2: null

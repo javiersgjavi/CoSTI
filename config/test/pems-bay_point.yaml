@@ -1,0 +1,26 @@
+defaults:
+  - base
+
+dataset:
+  name: pems-bay
+  scenario: point
+
+# Model hyperparameters:
+config : 
+  # Base PriSTI hyperparameters
+  layers: 4
+  channels: 64
+  nheads: 8
+  diffusion_embedding_dim: 128
+  is_adp: true
+  proj_t: 64
+  is_cross_t: true
+  is_cross_s: true
+  adj_file: ${dataset.name}
+  side_dim: 144
+  scale_window_factor: 1
+  batch_size: 4
+
+missing_pattern:
+  strategy1: point
+  strategy2: null

@@ -1,0 +1,20 @@
+defaults:
+  - base
+
+dataset:
+  name: mimic-iii-challenge
+  scenario: point
+  scale_window_factor: 1
+  batch_size: 4
+  
+
+# Model hyperparameters:
+model_config:
+  undersampling_factor_time: 2
+  undersampling_factor_node: 2
+
+missing_pattern:
+  strategy1: point
+  strategy2: null
+
+weight_name: version_4/epoch=49-val_loss=521.42316.ckpt
