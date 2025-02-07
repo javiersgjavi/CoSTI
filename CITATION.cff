@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software or find the method useful, citing it as below helps support our work."
+type: "article"
 title: "CoSTI: Consistency Models for (a faster) Spatio-Temporal Imputation"
-version: "2025"
-date-released: "2025"
+date-released: "2025-01-01"
 authors:
   - given-names: "Javier"
     family-names: "Solís-García"
@@ -12,4 +12,4 @@ authors:
     family-names: "Nepomuceno"
   - given-names: "Isabel A"
     family-names: "Nepomuceno-Chamorro"
-container-title: "arXiv preprint arXiv:2501.19364"
+journal: "arXiv preprint arXiv:2501.19364"
