@@ -13,5 +13,7 @@ title: "CoSTI: Consistency Models for (a faster) Spatio-Temporal Imputation"
 type: article
 year: 2025
 journal: "arXiv preprint"
-doi: "arXiv:2501.19364"
 url: "https://arxiv.org/abs/2501.19364"
+identifiers:
+  - type: "arXiv"
+    value: "2501.19364"
