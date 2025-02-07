@@ -13,7 +13,7 @@ Multivariate Time Series Imputation (MTSI) is a critical task in various domains
 - Drastically reduce inference times (up to 98% faster).
 - Enable scalability for real-time applications.
 
-For further details, please refer to our paper.
+For further details, please refer to our [paper](https://arxiv.org/abs/2501.19364).
 
 ## Framework
 
@@ -133,4 +133,15 @@ python ./scripts/impute_data.py --config-name metr-la_block
 python ./scripts/impute_data.py --config-name pems-bay_point
 python ./scripts/impute_data.py --config-name pems-bay_block
 python ./scripts/impute_data.py --config-name mimic-challenge
+```
+
+## Citation
+
+```bibtex
+@article{solis2025costi,
+  title={CoSTI: Consistency Models for (a faster) Spatio-Temporal Imputation},
+  author={Sol{\'\i}s-Garc{\'\i}a, Javier and Vega-M{\'a}rquez, Bel{\'e}n and Nepomuceno, Juan A and Nepomuceno-Chamorro, Isabel A},
+  journal={arXiv preprint arXiv:2501.19364},
+  year={2025}
+}
 ```
