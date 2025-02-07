@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software or find the method useful, citing it as below helps support our work."
+authors:
+  - family-names: "Solís-García"
+    given-names: "Javier"
+  - family-names: "Vega-Márquez"
+    given-names: "Belén"
+  - family-names: "Nepomuceno"
+    given-names: "Juan A"
+  - family-names: "Nepomuceno-Chamorro"
+    given-names: "Isabel A"
+title: "CoSTI: Consistency Models for (a faster) Spatio-Temporal Imputation"
+type: article
+year: 2025
+journal: "arXiv preprint"
+doi: "arXiv:2501.19364"
+url: "https://arxiv.org/abs/2501.19364"
