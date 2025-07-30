@@ -1,7 +1,6 @@
 [![HGNPub](https://img.shields.io/badge/Published-black?style=flat-square&logo=googlescholar)](https://www.sciencedirect.com/science/article/pii/S095070512501158X)   [![arXiv](https://img.shields.io/badge/arXiv-2501.19364-b31b1b.svg?style=for-the-badge)](https://arxiv.org/abs/2501.19364)
 
 
-https://doi.org/10.1016/j.knosys.2025.114117
 # CoSTI: Consistency Models for (a faster) Spatio-Temporal Imputation
 
 This repository contains the official implementation of **CoSTI**. CoSTI introduces a novel adaptation of Consistency Models (CMs) to the domain of Multivariate Time Series Imputation (MTSI), achieving significant reductions in inference (-98\%) time while maintaining competitive imputation accuracy.
