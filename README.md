@@ -1,4 +1,7 @@
-[![arXiv](https://img.shields.io/badge/arXiv-2501.19364-b31b1b.svg?style=for-the-badge)](https://arxiv.org/abs/2501.19364)
+[![HGNPub](https://img.shields.io/badge/Published-black?style=flat-square&logo=googlescholar)](https://www.sciencedirect.com/science/article/pii/S095070512501158X)   [![arXiv](https://img.shields.io/badge/arXiv-2501.19364-b31b1b.svg?style=for-the-badge)](https://arxiv.org/abs/2501.19364)
+
+
+https://doi.org/10.1016/j.knosys.2025.114117
 # CoSTI: Consistency Models for (a faster) Spatio-Temporal Imputation
 
 This repository contains the official implementation of **CoSTI**. CoSTI introduces a novel adaptation of Consistency Models (CMs) to the domain of Multivariate Time Series Imputation (MTSI), achieving significant reductions in inference (-98\%) time while maintaining competitive imputation accuracy.
@@ -138,10 +141,17 @@ python ./scripts/impute_data.py --config-name mimic-challenge
 ## Citation
 
 ```bibtex
-@article{solis2025costi,
-  title={CoSTI: Consistency Models for (a faster) Spatio-Temporal Imputation},
-  author={Sol{\'\i}s-Garc{\'\i}a, Javier and Vega-M{\'a}rquez, Bel{\'e}n and Nepomuceno, Juan A and Nepomuceno-Chamorro, Isabel A},
-  journal={arXiv preprint arXiv:2501.19364},
-  year={2025}
+@article{SOLISGARCIA2025114117,
+title = {CoSTI: Consistency models for (a faster) spatio-temporal imputation},
+journal = {Knowledge-Based Systems},
+volume = {327},
+pages = {114117},
+year = {2025},
+issn = {0950-7051},
+doi = {https://doi.org/10.1016/j.knosys.2025.114117},
+url = {https://www.sciencedirect.com/science/article/pii/S095070512501158X},
+author = {Javier Solís-García and Belén Vega-Márquez and Juan A. Nepomuceno and Isabel A. Nepomuceno-Chamorro},
+keywords = {Multivariate time series imputation, Consistency models, Consistency training, Generative models, Spatio-temporal data},
+abstract = {Multivariate Time Series Imputation (MTSI) is crucial for many applications, such as healthcare monitoring and traffic management, where incomplete data can compromise decision-making. Existing state-of-the-art methods, like Denoising Diffusion Probabilistic Models (DDPMs), achieve high imputation accuracy; however, they suffer from significant computational costs and are notably time-consuming due to their iterative nature. In this work, we propose CoSTI, an innovative adaptation of Consistency Models (CMs) for the MTSI domain. CoSTI employs Consistency Training to achieve comparable imputation quality to DDPMs while drastically reducing inference times, making it more suitable for real-time applications. We evaluate CoSTI across multiple datasets and missing data scenarios, demonstrating up to a 98 % reduction in imputation time with performance on par with diffusion-based models. This work bridges the gap between efficiency and accuracy in generative imputation tasks, providing a scalable solution for handling missing data in critical spatio-temporal systems. The code for this project can be found here: https://github.com/javiersgjavi/CoSTI.}
 }
 ```
