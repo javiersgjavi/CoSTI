@@ -1,19 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software in your research, please cite it as below."
 authors:
-- family-names: "Solís-García"
-  given-names: "Javier"
-- family-names: "Vega-Márquez"
-  given-names: "Belén"
-- family-names: "Nepomuceno"
-  given-names: "Juan A"
-- family-names: "Nepomuceno-Chamorro"
-  given-names: "Isabel A"
-title: "CoSTI: Consistency Models for (a faster) Spatio-Temporal Imputation"
-date-released: "2025-01-01"
-preferred-citation:
-  type: article
-  authors:
   - family-names: "Solís-García"
     given-names: "Javier"
   - family-names: "Vega-Márquez"
@@ -22,6 +9,24 @@ preferred-citation:
     given-names: "Juan A"
   - family-names: "Nepomuceno-Chamorro"
     given-names: "Isabel A"
-  journal: "arXiv preprint arXiv:2501.19364"
-  title: "CoSTI: Consistency Models for (a faster) Spatio-Temporal Imputation"
+title: "CoSTI: Consistency Models for (a faster) Spatio-Temporal Imputation"
+date-released: "2025-01-01"
+repository-code: "https://github.com/javiersgjavi/CoSTI"
+preferred-citation:
+  type: article
+  title: "CoSTI: Consistency models for (a faster) spatio-temporal imputation"
+  authors:
+    - family-names: "Solís-García"
+      given-names: "Javier"
+    - family-names: "Vega-Márquez"
+      given-names: "Belén"
+    - family-names: "Nepomuceno"
+      given-names: "Juan A"
+    - family-names: "Nepomuceno-Chamorro"
+      given-names: "Isabel A"
+  journal: "Knowledge-Based Systems"
+  volume: 327
+  pages: "114117"
   year: 2025
+  doi: "10.1016/j.knosys.2025.114117"
+  url: "https://www.sciencedirect.com/science/article/pii/S095070512501158X"
